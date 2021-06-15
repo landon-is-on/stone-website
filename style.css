@@ -1,4 +1,45 @@
+
+/*--------navBar-------------------------*/
+
+
+
+/*---------carousel----------------------*/
 #carousel-pic{
     height: 50rem;
 }
 
+/*Brige-----------------------------------*/
+#carouselBrige-h1{
+    margin-bottom: 1rem;
+}
+
+#carouselBrige-Sub{
+    margin-bottom: 2rem;
+}
+#carouselBrige-p{
+margin-bottom: 20rem;
+}
+/*town--------------------------*/
+
+
+#carouselTown-h1 {
+    margin-bottom: 1rem;
+}
+#carouselTown-Sub {
+    margin-bottom: 2rem;
+}
+
+#carouselTown-p{
+    margin-bottom: 20rem;
+}
+
+    /*City--------------------------*/
+    #carouselCity-h1{
+margin-bottom: 1rem;
+    }
+    #carouselCity-Sub{
+margin-bottom: 2rem;
+    }
+    #carouselCity-p{
+margin-bottom: 20rem;
+    }
