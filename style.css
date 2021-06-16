@@ -58,3 +58,37 @@ margin-bottom: .1rem;
         font-style: italic;
         font-size: 1rem;  
 }
+
+/*------------------flex section---------*/
+
+#lightBulb-svg{
+    height: 10rem;
+width: 3rem;
+align-self: center;
+}
+
+
+.flexSection{
+display: flex;
+background-color: #c7aa8b;
+height: 23rem;
+justify-content: center;
+}
+
+.lightBuld-div{
+    width: 20rem;
+    text-align: center;
+padding: 1rem;
+}
+
+.phone-div{    
+width: 20rem;
+text-align: center;
+padding: 1rem;
+}
+
+.connctedDot-div{
+width: 20rem;
+text-align: center;
+padding: 1rem;
+}
