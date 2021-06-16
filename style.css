@@ -92,3 +92,11 @@ width: 20rem;
 text-align: center;
 padding: 1rem;
 }
+
+
+
+#stickyPicture{
+    height: 100rem;
+background-attachment: fixed;
+
+}
