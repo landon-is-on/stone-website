@@ -91,9 +91,13 @@ padding: 1rem;
 width: 20rem;
 text-align: center;
 padding: 1rem;
+
 }
 
 
+.phone-h {
+    margin: 0%;
+}
 
 #stickyPicture{
 width: 100%;
@@ -138,12 +142,84 @@ right: 0%;
     }
 }
 
+@media screen and (max-width: 1271px) {
+    .stickyPicture-p {
+        font-size: 2rem;
+    left: 10rem;
+        line-height: 2rem;
+    }
+}
+
+
 /* "THE TEAM"*/
 .theTeam-cards{
     display: flex;
+    justify-content: center;
+margin-top: 5rem;
+
+}
+/*team card*/
+.theTeam-p {
+    font-style: italic;
+}
+
+.foudnerCard {
+    margin-right: 2rem;
+
 
 }
 
-.theTeam-p {
-    font-style: italic;
+
+.developerCard {
+    margin-right: 2rem;
+}
+
+
+#theTeam-h {
+margin-right: 1rem;
+font-weight: bold;
+text-transform: capitalize;
+}
+
+
+#card-hight{
+    height: 24rem;
+}
+
+
+
+/*the team media*/
+
+@media screen and (max-width: 946px) {
+    #card-hight {
+        height: 20rem;
+    }  
+}
+
+
+@media screen and (max-width: 850px) {
+    #card-hight {
+        height: 16rem;
+    }  
+}
+
+@media screen and (max-width: 672px) {
+    #card-hight {
+        height: 12rem;
+    }  
+}
+
+
+@media screen and (max-width: 536px) {
+    #card-hight {
+        height: 9rem;
+    }  
+}
+
+@media screen and (max-width: 435px) {
+    .theTeam-cards {
+        flex-direction: column;
+    text-align: center;
+   
+    }  
 }
