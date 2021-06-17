@@ -104,18 +104,19 @@ height: 25rem;
     z-index: 1;
     position: absolute;
 top: 73rem;
-left: 16rem;
-right: 10rem;
+left: 29rem;
+right: 20rem;
 font-size: 3rem;
 color: #c7aa8b;
 
 }
-
+/*MEDIA FOR  WORDS ON STICKY PIC*/
 @media screen and (max-width: 857px) {
     .stickyPicture-p {
         font-size: 2rem;
     line-height: 2rem;
-left: 10rem;    
+left: 5rem;    
+right: 0%;
 }
 }
 
@@ -131,7 +132,18 @@ left: 10rem;
 @media screen and (max-width: 445px) {
     .stickyPicture-p {
         font-size: 1.3rem;
-    left: 5rem;
+    left: 2rem;
         line-height: 2rem;
+    right: 0%;
     }
+}
+
+/* "THE TEAM"*/
+.theTeam-cards{
+    display: flex;
+
+}
+
+.theTeam-p {
+    font-style: italic;
 }
